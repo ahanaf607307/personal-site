@@ -1,0 +1,163 @@
+/* for desktop */
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.navbar_logo {
+  text-align: left;
+}
+
+.navbar_heading h1 {
+  text-align: right;
+}
+
+.navbar_menu {
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.navbar_menu a {
+  padding: 5px 10px;
+  margin: 20px 0;
+  background-color: transparent;
+}
+.navbar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* navbar end */
+
+/* profile design start */
+
+.profile .top_weather_icon {
+  position: absolute;
+  right: 101px;
+  width: 121;
+  transition: width 2s, transform 2s;
+}
+.profile .top_weather_icon:hover {
+  width: 140px;
+}
+
+.profile .bottom_weather_icon {
+  bottom: 20px;
+  position: absolute;
+  left: 141px;
+  width: 121px;
+  transition: width 2s, transform 2s;
+}
+.profile .bottom_weather_icon:hover {
+  width: 140px;
+}
+
+.profile_desc p {
+  color: rgb(112, 112, 112);
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 51%;
+}
+
+.profile::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+/* about me stat */
+
+.about_me_image {
+  margin-top: 100px;
+}
+
+.about_me_ahanaf {
+  height: 270px;
+  width: 250px;
+}
+
+.about_me_desc {
+  text-align: left;
+}
+
+.about_me_image {
+  position: relative;
+  margin-top: 32px;
+}
+
+/* <!-- profational exprience start  --> */
+
+.professional_experience {
+  padding: 20px;
+}
+
+/* achivement contact start */
+
+.contact button{
+width: 170px;
+}
+
+.achievement{
+padding-right: 50px;
+}
+
+.contact_link{
+  position: relative;
+}
+.media_button{
+  position: absolute;
+  margin-top: 200px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50% );
+}
+
+/* footer starts form here  */
+
+.footer_menu{
+  margin-top: 12px;
+
+}
+
+.footer_menu a{
+  display: inline;
+  
+  margin: 10px;
+  
+}
